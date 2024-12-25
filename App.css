@@ -1,0 +1,243 @@
+.App {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url("https://ts1.cn.mm.bing.net/th/id/R-C.1af3c3c92fcf9e42d47b9e3f9de082dd?rik=zFrZnq0UCun1zQ&riu=http%3a%2f%2fpic.616pic.com%2fbg_w1180%2f00%2f20%2f90%2fxvifeOXaGK.jpg&ehk=9Y%2f0iZBSDd7IB%2bhdDEsmq6IrkmmkflZso7VzYyKZZ24%3d&risl=&pid=ImgRaw&r=0");
+}
+
+h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+input[type="text"], input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.nft-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.listBox {
+  width: calc(33.333% - 20px);
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.listImg img {
+  width: 100%;
+  height: auto;
+}
+
+.listTitle h3 {
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.listRemark p {
+  margin: 10px;
+  font-size: 1em;
+}
+
+.listBtnBox button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.listBtnBox button:hover {
+  background-color: #c82333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+li button:hover {
+  background-color: #218838;
+}
+.App {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+input[type="text"], input[type="number"] {
+  width: calc(100% - 22px);
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.nft-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.listBox {
+  width: calc(33.333% - 20px);
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.listImg img {
+  width: 100%;
+  height: auto;
+}
+
+.listTitle h3 {
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.listRemark p {
+  margin: 10px;
+  font-size: 1em;
+}
+
+.listBtnBox button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.listBtnBox button:hover {
+  background-color: #c82333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+li button:hover {
+  background-color: #218838;
+}
